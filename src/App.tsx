@@ -1,11 +1,16 @@
 import React from "react";
+import Header from "./components/UI/Header/Header";
+import Footer from "./components/UI/Footer/Footer";
+import { Outlet } from "react-router-dom";
 
-function App() {
+const App: React.FC = () => {
   return (
     <>
-      <h1>Base skeleton</h1>
+      <Header />
+      <Outlet />
+      <Footer />
     </>
   );
-}
+};
 
 export default App;
