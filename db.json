@@ -1,7 +1,75 @@
-[
-  {
-    "id": "1",
-    "title": "a title",
-    "views": 100
-  }
-]
+{
+  "countries": [
+    {
+      "id": "1",
+      "name": "Belarus",
+      "capital": "Minsk",
+      "population": 1996553,
+      "flag": "https://avatars.mds.yandex.net/i?id=139bbe57c9ab2bcdf57e6e530a6a51bbee774388-10122395-images-thumbs&n=13"
+    },
+    {
+      "id": "2",
+      "name": "Russia",
+      "capital": "Moscow",
+      "population": 13104177,
+      "flag": "https://avatars.mds.yandex.net/i?id=55102e332bb3f00c90361a75991e14d6_sr-4121129-images-thumbs&n=13"
+    },
+    {
+      "id": "3",
+      "name": "Japan",
+      "capital": "Tokyo",
+      "population": 14094034,
+      "flag": "https://avatars.mds.yandex.net/i?id=84a24dfbff70d8c380efad485164446e_sr-6402780-images-thumbs&n=13"
+    },
+    {
+      "id": "4",
+      "name": "Germany",
+      "capital": "Berlin",
+      "population": 3677472,
+      "flag": "https://avatars.mds.yandex.net/i?id=5b008f3f6cbf86772a072cbcf010ab9e_sr-9652646-images-thumbs&n=13"
+    },
+    {
+      "id": "5",
+      "name": "France",
+      "capital": "Paris",
+      "population": 2139907,
+      "flag": "https://avatars.mds.yandex.net/i?id=1bcc800c6f0940528b6101b0f924515e_sr-9149535-images-thumbs&n=13"
+    },
+    {
+      "id": "6",
+      "name": "United Kingdom",
+      "capital": "London",
+      "population": 9002488,
+      "flag": "https://avatars.mds.yandex.net/i?id=18590f9da97a9bd1786fa008c9f07fe1_sr-8544532-images-thumbs&n=13"
+    },
+    {
+      "id": "7",
+      "name": "United States",
+      "capital": "Washington, D.C.",
+      "population": 5434000,
+      "flag": "https://avatars.mds.yandex.net/i?id=4e024bdb047ae0bbd8252133eade9195_sr-9215651-images-thumbs&n=13"
+    },
+    {
+      "id": "8",
+      "name": "China",
+      "capital": "Beijing",
+      "population": 21542000,
+      "flag": "https://avatars.mds.yandex.net/i?id=b3f1aea3b1ffdcfec75f06aee3cba8a0-5134720-images-thumbs&n=13"
+    },
+    {
+      "id": "9",
+      "name": "India",
+      "capital": "New Delhi",
+      "population": 32066000,
+      "flag": "https://avatars.mds.yandex.net/i?id=ce097e40fd435b0d977f1123868dfcbd_sr-4303250-images-thumbs&n=13"
+    },
+    {
+      "id": "10",
+      "name": "Brazil",
+      "capital": "Brasília",
+      "population": 2982818,
+      "flag": "https://avatars.mds.yandex.net/i?id=2c5d21a5b8beea18f227439b778420815a02046d-5329555-images-thumbs&n=13"
+    }
+  ]
+}
+

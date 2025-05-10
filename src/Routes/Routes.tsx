@@ -1,7 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
-import CountryList from "../components/pages/CountryList/CountryList";
-import CountryForm from "../components/pages/CountryForm/CountryForm";
 import Details from "../components/pages/Details/Details";
 import BadPage from "../components/pages/BadPage/BadPage";
 
@@ -15,7 +13,7 @@ const routes = createBrowserRouter([
       ...LIST_NAV.map((nav) => {
         return { path: nav.path, element: nav.element };
       }),
-      { path: "/country/:id", element: <Details /> },
+      { path: "/countries/:id", element: <Details /> },
     ],
     errorElement: <BadPage />,
   },

@@ -1,0 +1,10 @@
+.wrapperList{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 300px;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}

@@ -1,0 +1,65 @@
+{
+  "countries": [
+    {
+      "id": "1",
+      "name": "Belarus",
+      "capital": "Minsk",
+      "population": 1996553
+    },
+    {
+      "id": "2",
+      "name": "Russia",
+      "capital": "Moscow",
+      "population": 13104177
+    },
+    {
+      "id": "3",
+      "name": "Japan",
+      "capital": "Tokyo",
+      "population": 14094034
+    },
+    {
+      "id": "4",
+      "name": "Germany",
+      "capital": "Berlin",
+      "population": 3677472
+    },
+    {
+      "id": "5",
+      "name": "France",
+      "capital": "Paris",
+      "population": 2139907
+    },
+    {
+      "id": "6",
+      "name": "United Kingdom",
+      "capital": "London",
+      "population": 9002488
+    },
+    {
+      "id": "7",
+      "name": "United States",
+      "capital": "Washington, D.C.",
+      "population": 5434000
+    },
+    {
+      "id": "8",
+      "name": "China",
+      "capital": "Beijing",
+      "population": 21542000
+    },
+    {
+      "id": "9",
+      "name": "India",
+      "capital": "New Delhi",
+      "population": 32066000
+    },
+    {
+      "id": "10",
+      "name": "Brazil",
+      "capital": "Brasília",
+      "population": 2982818
+    }
+  ]
+}
+

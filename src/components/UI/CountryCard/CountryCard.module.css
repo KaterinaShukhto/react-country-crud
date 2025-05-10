@@ -1,0 +1,13 @@
+.country-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    border: 1px solid green;
+}
+
+.flag{
+    width: 100%;
+}
