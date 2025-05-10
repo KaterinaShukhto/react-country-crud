@@ -1,10 +1,16 @@
 .wrapperList{
     display: flex;
     flex-direction: row;
-    width: 200px;
-    height: 300px;
     justify-content: space-around;
     gap: 20px;
     flex-wrap: wrap;
     width: 100%;
+}
+
+h3{
+    font-size: 18px;
+}
+
+h3{
+    font-size: 16px;
 }

@@ -8,7 +8,7 @@ const Menu: React.FC = () => {
   return <div>
     <nav className={styles.navigate}>
       {LIST_NAV.map((nav, index)=>(
-        <NavLink key={index} to={nav.path} className={({isActive}) => isActive ? styles["active-link"] : ""}>{nav.name}</NavLink>
+        <li key={index}><NavLink  to={nav.path} className={({isActive}) => isActive ? styles["active-link"] : ""}>{nav.name}</NavLink></li>
       ))}
     </nav>
   </div>;

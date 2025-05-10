@@ -1,4 +1,4 @@
-export interface ICountries{
+export interface ICountrie{
     id: string,
     name: string,
     capital?: string,

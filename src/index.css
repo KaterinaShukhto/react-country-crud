@@ -3,12 +3,14 @@
     margin: 0;
     box-sizing: border-box;
     color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 a{
     text-decoration: none;
 }
 
-.root{
+#root{
     width: 100%;
     min-height: 100vh;
+    padding: 10px;
 }
