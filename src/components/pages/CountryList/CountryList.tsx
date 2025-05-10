@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { getAllCountries } from "../../../API/apiService";
+import { deleteCountryById, getAllCountries } from "../../../API/apiService";
 import CountryCard from "../../UI/CountryCard/CountryCard";
 import type { ICountrie } from "../../../data/Interfaces";
 import style from './CountryList.module.css'
@@ -12,7 +12,11 @@ import { Link } from "react-router-dom";
   function handleDelete(event: React.MouseEvent<HTMLButtonElement>, id: number): void{
     event.preventDefault();
     event.stopPropagation();
-    console.log("Удалить?" + id)
+    deleteCountryById(id)
+    .then(() => {
+      setCountries(prevCountries => prevCountries.filter(country => +country.id !== id))
+    })
+    .catch(error => console.error("Ошибка при удалении страны:", error));
   }
 
   useEffect(() => {

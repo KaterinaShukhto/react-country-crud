@@ -12,7 +12,7 @@ const getAllCountries = async ()=>{
 
 const getOneCountryById = async (id: number | string)=>{
     try{    
-        const {data} = await axios.get(API_URL+'/'+id)
+        const {data} = await axios.get(`${API_URL}/${id}`)
         return data
     }catch(err){
         console.error(err)
@@ -21,7 +21,7 @@ const getOneCountryById = async (id: number | string)=>{
 
 const deleteCountryById = async (id: number | string)=>{
     try{    
-        const {data} = await axios.get(API_URL+'/'+id)
+        const {data} = await axios.delete(API_URL+'/'+id)
         return data
     }catch(err){
         console.error(err)
