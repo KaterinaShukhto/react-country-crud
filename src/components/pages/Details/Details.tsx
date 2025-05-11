@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import type { ICountrie } from "../../../data/Interfaces";
+import type { ICountrie } from "../../../Interfaces/Interfaces";
 import { getOneCountryById } from "../../../API/apiService";
+import style from './Details.module.css'
+import BoxCountry from "../../UI/BoxCountry/BoxCountry";
 
 const Details: React.FC = () => {
   const [countryInfo, setCountryInfo] = useState<ICountrie>()
@@ -28,8 +30,8 @@ const Details: React.FC = () => {
     <div>
       {isLoading && <p>Загрузка...</p>}
       {isNotFound && <p>Запрашиваемая страница не найдена</p>}
-      <button onClick={()=>navigate(-1)}>Назад</button>
-      <h1>{countryInfo?.name}</h1>
+      <button className={style.toBack} onClick={()=>navigate(-1)}>&#8592; Назад</button>
+      {countryInfo && <BoxCountry country={countryInfo}/>}
     </div>
   );
 };

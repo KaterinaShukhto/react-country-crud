@@ -1,6 +1,6 @@
 import axios from "axios";
 import API_URL from "./API_URL";
-import type { ICountrie } from "../data/Interfaces";
+import type { ICountrie } from "../Interfaces/Interfaces";
 
 const getAllCountries = async (): Promise<ICountrie[] | undefined>=>{
     try{
@@ -26,10 +26,17 @@ const getOneCountryById = async (id: number | string): Promise<ICountrie | numbe
     }
 }
 
-const deleteCountryById = async (id: number | string)=>{
+const deleteCountryById = async (id: number | string): Promise<void>=>{
     try{    
-        const {data} = await axios.delete(API_URL+'/'+id)
-        return data
+        await axios.delete(API_URL+'/'+id)
+    }catch(err){
+        console.error(err)
+    }
+}
+
+const updateCountry = async (id: number | string, data: ICountrie): Promise<void>=>{
+    try{    
+        await axios.put(API_URL+'/'+id, data)
     }catch(err){
         console.error(err)
     }

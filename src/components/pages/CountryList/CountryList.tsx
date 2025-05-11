@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { deleteCountryById, getAllCountries } from "../../../API/apiService";
 import CountryCard from "../../UI/CountryCard/CountryCard";
-import type { ICountrie } from "../../../data/Interfaces";
+import type { ICountrie } from "../../../Interfaces/Interfaces";
 import style from './CountryList.module.css'
 import { Link } from "react-router-dom";
 
@@ -10,8 +10,10 @@ import { Link } from "react-router-dom";
   const [countries, setCountries] = useState<ICountrie[] | []>([])
 
   function handleDelete(event: React.MouseEvent<HTMLButtonElement>, id: number): void{
+    const answer: boolean = confirm('Вы действительно хотите удалить эту страну?')
     event.preventDefault();
     event.stopPropagation();
+    if(!answer) return
     deleteCountryById(id)
     .then(() => {
       setCountries(prevCountries => prevCountries.filter(country => +country.id !== id))

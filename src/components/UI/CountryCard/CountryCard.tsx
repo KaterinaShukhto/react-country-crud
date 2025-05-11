@@ -1,5 +1,5 @@
 import React from 'react'
-import type { ICountrie } from '../../../data/Interfaces'
+import type { ICountrie } from '../../../Interfaces/Interfaces'
 import style from './CountryCard.module.css'
 
 interface CountryProps {

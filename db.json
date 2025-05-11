@@ -57,13 +57,6 @@
       "flag": "https://avatars.mds.yandex.net/i?id=b3f1aea3b1ffdcfec75f06aee3cba8a0-5134720-images-thumbs&n=13"
     },
     {
-      "id": "9",
-      "name": "India",
-      "capital": "New Delhi",
-      "population": 32066000,
-      "flag": "https://avatars.mds.yandex.net/i?id=ce097e40fd435b0d977f1123868dfcbd_sr-4303250-images-thumbs&n=13"
-    },
-    {
       "id": "10",
       "name": "Brazil",
       "capital": "Brasília",
@@ -125,6 +118,125 @@
       "capital": "Jakarta",
       "population": 10562088,
       "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg"
+    },
+    {
+      "id": "21",
+      "name": "Egypt",
+      "capital": "Cairo",
+      "population": 21750000,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg"
+    },
+    {
+      "id": "22",
+      "name": "Bangladesh",
+      "capital": "Dhaka",
+      "population": 22478000,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg"
+    },
+    {
+      "id": "23",
+      "name": "Pakistan",
+      "capital": "Islamabad",
+      "population": 1232000,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg"
+    },
+    {
+      "id": "24",
+      "name": "Iran",
+      "capital": "Tehran",
+      "population": 9382000,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg"
+    },
+    {
+      "id": "25",
+      "name": "Thailand",
+      "capital": "Bangkok",
+      "population": 11070000,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg"
+    },
+    {
+      "id": "26",
+      "name": "Vietnam",
+      "capital": "Hanoi",
+      "population": 8053663,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg"
+    },
+    {
+      "id": "28",
+      "name": "Saudi Arabia",
+      "capital": "Riyadh",
+      "population": 7686654,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg"
+    },
+    {
+      "id": "29",
+      "name": "Colombia",
+      "capital": "Bogotá",
+      "population": 7181469,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg"
+    },
+    {
+      "id": "30",
+      "name": "Chile",
+      "capital": "Santiago",
+      "population": 6310000,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg"
+    },
+    {
+      "id": "32",
+      "name": "Kenya",
+      "capital": "Nairobi",
+      "population": 4397073,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Kenya.svg"
+    },
+    {
+      "id": "33",
+      "name": "Jordan",
+      "capital": "Amman",
+      "population": 4061150,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Flag_of_Jordan.svg"
+    },
+    {
+      "id": "34",
+      "name": "Algeria",
+      "capital": "Algiers",
+      "population": 3915811,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg"
+    },
+    {
+      "id": "35",
+      "name": "Ethiopia",
+      "capital": "Addis Ababa",
+      "population": 3040740,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/71/Flag_of_Ethiopia.svg"
+    },
+    {
+      "id": "36",
+      "name": "Ukraine",
+      "capital": "Kyiv",
+      "population": 2920873,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg"
+    },
+    {
+      "id": "38",
+      "name": "Uzbekistan",
+      "capital": "Tashkent",
+      "population": 2860600,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Uzbekistan.svg"
+    },
+    {
+      "id": "39",
+      "name": "Ecuador",
+      "capital": "Quito",
+      "population": 2800388,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Flag_of_Ecuador.svg"
+    },
+    {
+      "id": "40",
+      "name": "Cameroon",
+      "capital": "Yaoundé",
+      "population": 2765568,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Flag_of_Cameroon.svg"
     }
   ]
 }

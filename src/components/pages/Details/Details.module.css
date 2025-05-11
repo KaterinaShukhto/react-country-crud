@@ -1,0 +1,12 @@
+.toBack{
+    background: none;
+    border: none;
+    outline:  none;
+    font-size: 18px;
+    color: rgb(18, 110, 231);
+    cursor: pointer;
+    transition: color .3s ease-in-out;
+}
+.toBack:hover{
+    color: rgb(89, 146, 221);
+}
