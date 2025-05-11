@@ -69,7 +69,62 @@
       "capital": "Brasília",
       "population": 2982818,
       "flag": "https://avatars.mds.yandex.net/i?id=2c5d21a5b8beea18f227439b778420815a02046d-5329555-images-thumbs&n=13"
+    },
+    {
+      "id": "11",
+      "name": "Mexico",
+      "capital": "Mexico City",
+      "population": 9220000,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg"
+    },
+    {
+      "id": "12",
+      "name": "South Korea",
+      "capital": "Seoul",
+      "population": 9508451,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg"
+    },
+    {
+      "id": "13",
+      "name": "Italy",
+      "capital": "Rome",
+      "population": 2761632,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg"
+    },
+    {
+      "id": "14",
+      "name": "Spain",
+      "capital": "Madrid",
+      "population": 3305408,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg"
+    },
+    {
+      "id": "15",
+      "name": "Canada",
+      "capital": "Ottawa",
+      "population": 1423000,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg"
+    },
+    {
+      "id": "16",
+      "name": "Australia",
+      "capital": "Canberra",
+      "population": 467000,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg"
+    },
+    {
+      "id": "17",
+      "name": "Argentina",
+      "capital": "Buenos Aires",
+      "population": 3120612,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"
+    },
+    {
+      "id": "20",
+      "name": "Indonesia",
+      "capital": "Jakarta",
+      "population": 10562088,
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg"
     }
   ]
 }
-
