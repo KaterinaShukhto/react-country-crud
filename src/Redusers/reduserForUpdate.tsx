@@ -1,12 +1,11 @@
-import { updateCountry } from "../API/apiService";
-import type { ICountrie } from "../Interfaces/Interfaces";
+import type { ICountry } from "../Interfaces/Interfaces";
 
 type Action = {
   type: string;
   payload: string;
 };
 
-export const reducer = (state: ICountrie, action: Action): ICountrie => {
+export const reducer = (state: ICountry, action: Action): ICountry => {
   switch (action.type) {
     case "name":
       console.log(">>> name");

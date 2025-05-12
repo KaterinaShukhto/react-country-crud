@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { deleteCountryById, getAllCountries } from "../../../API/apiService";
 import CountryCard from "../../UI/CountryCard/CountryCard";
-import type { ICountrie } from "../../../Interfaces/Interfaces";
+import type { ICountry } from "../../../Interfaces/Interfaces";
 import style from "./CountryList.module.css";
 import { Link } from "react-router-dom";
 
 const CountryList: React.FC = () => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
-  const [countries, setCountries] = useState<ICountrie[] | []>([]);
+  const [countries, setCountries] = useState<ICountry[] | []>([]);
 
   function handleDelete(
     event: React.MouseEvent<HTMLButtonElement>,
@@ -42,7 +42,7 @@ const CountryList: React.FC = () => {
     <div className={style.wrapperList}>
       {isLoading ? <p>Загрузка...</p> : ""}
       {countries?.length > 0 &&
-        countries.map((country: ICountrie) => (
+        countries.map((country: ICountry) => (
           <Link key={country.id} to={`/countries/${country.id}`}>
             <CountryCard
               country={country}
