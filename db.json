@@ -202,6 +202,13 @@
       "capital": "Kyiv",
       "population": 2920873,
       "flag": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg"
+    },
+    {
+      "id": "5fa8",
+      "name": "Швеция",
+      "capital": "Берн",
+      "population": "8962300",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/768px-Flag_of_Switzerland.svg.png?20191016012602"
     }
   ]
 }
