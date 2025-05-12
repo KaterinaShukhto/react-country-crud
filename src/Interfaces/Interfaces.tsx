@@ -1,5 +1,5 @@
 export interface ICountrie {
-  id: string;
+  id: string | number;
   name: string;
   capital: string;
   population: number;

@@ -202,27 +202,6 @@
       "capital": "Kyiv",
       "population": 2920873,
       "flag": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg"
-    },
-    {
-      "id": "38",
-      "name": "Uzbekistan",
-      "capital": "Tashkent",
-      "population": 2860600,
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Uzbekistan.svg"
-    },
-    {
-      "id": "39",
-      "name": "Ecuador",
-      "capital": "Quito",
-      "population": 2800388,
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Flag_of_Ecuador.svg"
-    },
-    {
-      "id": "40",
-      "name": "Cameroon",
-      "capital": "Yaoundé",
-      "population": 2765568,
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Flag_of_Cameroon.svg"
     }
   ]
 }

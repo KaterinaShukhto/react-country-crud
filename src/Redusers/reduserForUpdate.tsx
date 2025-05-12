@@ -18,7 +18,7 @@ export const reducer = (state: ICountrie, action: Action): ICountrie => {
       console.log(">>> population");
       return {
         ...state,
-        population: Number(action.payload),
+        population: action.payload ? Number(action.payload) : 0,
       };
     default:
       return state;

@@ -1,0 +1,16 @@
+.mainForm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.mainForm input{
+    padding: 5px;
+    min-width: 300px;
+    margin-left: 10px;
+}
+
+.mainForm button{
+    width: 150px;
+}

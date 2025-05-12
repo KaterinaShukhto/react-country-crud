@@ -53,4 +53,21 @@ const updateCountry = async (
   }
 };
 
-export { getAllCountries, getOneCountryById, deleteCountryById, updateCountry };
+const addNewCountry = async (data: ICountrie): Promise<void> => {
+  try {
+    const response = await axios.post(API_URL, data);
+    console.log("Страна добавлена:", response.data);
+    return response.data;
+  } catch (err) {
+    console.error("Ошибка добавления страны: ", err);
+    return undefined;
+  }
+};
+
+export {
+  getAllCountries,
+  getOneCountryById,
+  deleteCountryById,
+  updateCountry,
+  addNewCountry,
+};

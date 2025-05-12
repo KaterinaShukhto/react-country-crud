@@ -2,23 +2,30 @@ import React, { useEffect, useState } from "react";
 import { deleteCountryById, getAllCountries } from "../../../API/apiService";
 import CountryCard from "../../UI/CountryCard/CountryCard";
 import type { ICountrie } from "../../../Interfaces/Interfaces";
-import style from './CountryList.module.css'
+import style from "./CountryList.module.css";
 import { Link } from "react-router-dom";
 
- const CountryList: React.FC = ()=>{
-  const [isLoading, setIsLoading] = useState<boolean>(true)
-  const [countries, setCountries] = useState<ICountrie[] | []>([])
+const CountryList: React.FC = () => {
+  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [countries, setCountries] = useState<ICountrie[] | []>([]);
 
-  function handleDelete(event: React.MouseEvent<HTMLButtonElement>, id: number): void{
-    const answer: boolean = confirm('Вы действительно хотите удалить эту страну?')
+  function handleDelete(
+    event: React.MouseEvent<HTMLButtonElement>,
+    id: number | string
+  ): void {
+    const answer: boolean = confirm(
+      "Вы действительно хотите удалить эту страну?"
+    );
     event.preventDefault();
     event.stopPropagation();
-    if(!answer) return
+    if (!answer) return;
     deleteCountryById(id)
-    .then(() => {
-      setCountries(prevCountries => prevCountries.filter(country => +country.id !== id))
-    })
-    .catch(error => console.error("Ошибка при удалении страны:", error));
+      .then(() => {
+        setCountries((prevCountries) =>
+          prevCountries.filter((country) => country.id !== id)
+        );
+      })
+      .catch((error) => console.error("Ошибка при удалении страны:", error));
   }
 
   useEffect(() => {
@@ -33,13 +40,18 @@ import { Link } from "react-router-dom";
 
   return (
     <div className={style.wrapperList}>
-      {isLoading ? <p>Загрузка...</p>:''}
-      {countries?.length>0 && countries.map((country: ICountrie)=>(
-        <Link key={country.id}  to={`/countries/${country.id}`}>
-          <CountryCard country={country} handleDelete={handleDelete}/>
-        </Link>)) }
+      {isLoading ? <p>Загрузка...</p> : ""}
+      {countries?.length > 0 &&
+        countries.map((country: ICountrie) => (
+          <Link key={country.id} to={`/countries/${country.id}`}>
+            <CountryCard
+              country={country}
+              handleDelete={(event) => handleDelete(event, country.id)}
+            />
+          </Link>
+        ))}
     </div>
   );
-}
+};
 
-export default CountryList
+export default CountryList;
