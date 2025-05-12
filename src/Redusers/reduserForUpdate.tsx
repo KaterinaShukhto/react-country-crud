@@ -1,22 +1,26 @@
+import { updateCountry } from "../API/apiService";
 import type { ICountrie } from "../Interfaces/Interfaces";
 
 type Action = {
-    type: string; 
-    payload: string
-}
+  type: string;
+  payload: string;
+};
 
-export const reducer = (state: ICountrie, action: Action): ICountrie =>{
-    switch(action.type){
-        case 'name':
-            console.log('>>> name')
-            // return state
-            return {...state, name: action.payload || state.name}
-        case 'capital':
-            console.log('>>> capital')
-            return {...state, capital:  action.payload || state.capital}
-        case 'population':
-            console.log('>>> population')
-            return {...state, population: action.payload ? Number(action.payload) : state.population}
-        default: return state
-    }
-}
+export const reducer = (state: ICountrie, action: Action): ICountrie => {
+  switch (action.type) {
+    case "name":
+      console.log(">>> name");
+      return { ...state, name: action.payload };
+    case "capital":
+      console.log(">>> capital");
+      return { ...state, capital: action.payload };
+    case "population":
+      console.log(">>> population");
+      return {
+        ...state,
+        population: Number(action.payload),
+      };
+    default:
+      return state;
+  }
+};

@@ -4,7 +4,7 @@
       "id": "1",
       "name": "Belarus",
       "capital": "Minsk",
-      "population": 1996553,
+      "population": 2000000,
       "flag": "https://avatars.mds.yandex.net/i?id=139bbe57c9ab2bcdf57e6e530a6a51bbee774388-10122395-images-thumbs&n=13"
     },
     {
@@ -108,7 +108,7 @@
     {
       "id": "17",
       "name": "Argentina",
-      "capital": "Buenos Aires",
+      "capital": "Buenos   Aires",
       "population": 3120612,
       "flag": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"
     },
@@ -183,13 +183,6 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg"
     },
     {
-      "id": "32",
-      "name": "Kenya",
-      "capital": "Nairobi",
-      "population": 4397073,
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Kenya.svg"
-    },
-    {
       "id": "33",
       "name": "Jordan",
       "capital": "Amman",
@@ -202,13 +195,6 @@
       "capital": "Algiers",
       "population": 3915811,
       "flag": "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg"
-    },
-    {
-      "id": "35",
-      "name": "Ethiopia",
-      "capital": "Addis Ababa",
-      "population": 3040740,
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/7/71/Flag_of_Ethiopia.svg"
     },
     {
       "id": "36",
