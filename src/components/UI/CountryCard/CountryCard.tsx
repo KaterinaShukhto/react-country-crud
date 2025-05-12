@@ -1,10 +1,10 @@
 import React from "react";
-import type { ICountrie } from "../../../Interfaces/Interfaces";
+import type { ICountry } from "../../../Interfaces/Interfaces";
 import style from "./CountryCard.module.css";
 import { FLAG_URL } from "../../../data/defaulFlagURL";
 
 interface CountryProps {
-  country: ICountrie;
+  country: ICountry;
   handleDelete: (
     event: React.MouseEvent<HTMLButtonElement>,
     id: number | string

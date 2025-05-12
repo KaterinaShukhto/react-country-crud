@@ -1,10 +1,10 @@
 import axios from "axios";
 import API_URL from "./API_URL";
-import type { ICountrie } from "../Interfaces/Interfaces";
+import type { ICountry } from "../Interfaces/Interfaces";
 
-const getAllCountries = async (): Promise<ICountrie[] | undefined> => {
+const getAllCountries = async (): Promise<ICountry[] | undefined> => {
   try {
-    const { data } = await axios.get<ICountrie[]>(API_URL);
+    const { data } = await axios.get<ICountry[]>(API_URL);
     return data;
   } catch (err) {
     console.error(err);
@@ -13,9 +13,9 @@ const getAllCountries = async (): Promise<ICountrie[] | undefined> => {
 
 const getOneCountryById = async (
   id: number | string
-): Promise<ICountrie | number | null> => {
+): Promise<ICountry | number | null> => {
   try {
-    const { data } = await axios.get<ICountrie>(`${API_URL}/${id}`);
+    const { data } = await axios.get<ICountry>(`${API_URL}/${id}`);
     return data;
   } catch (err) {
     if (axios.isAxiosError(err) && err.response && err.response.status >= 400) {
@@ -41,8 +41,8 @@ const deleteCountryById = async (id: number | string): Promise<boolean> => {
 
 const updateCountry = async (
   id: number | string,
-  data: ICountrie
-): Promise<ICountrie | undefined> => {
+  data: ICountry
+): Promise<ICountry | undefined> => {
   try {
     const response = await axios.put(API_URL + "/" + id, data);
     console.log("Страна обновлена:", response.data);
@@ -53,7 +53,7 @@ const updateCountry = async (
   }
 };
 
-const addNewCountry = async (data: ICountrie): Promise<void> => {
+const addNewCountry = async (data: ICountry): Promise<void> => {
   try {
     const response = await axios.post(API_URL, data);
     console.log("Страна добавлена:", response.data);

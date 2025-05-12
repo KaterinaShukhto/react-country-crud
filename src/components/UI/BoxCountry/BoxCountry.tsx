@@ -1,11 +1,11 @@
 import React, { useReducer, useState } from "react";
-import type { ICountrie } from "../../../Interfaces/Interfaces";
+import type { ICountry } from "../../../Interfaces/Interfaces";
 import styles from "./BoxCountry.module.css";
 import { reducer } from "../../../Redusers/reduserForUpdate";
 import { updateCountry } from "../../../API/apiService";
 
 interface CountryProps {
-  country: ICountrie;
+  country: ICountry;
 }
 
 const BoxCountry: React.FC<CountryProps> = ({ country }) => {

@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import type { ICountrie } from "../../../Interfaces/Interfaces";
+import type { ICountry } from "../../../Interfaces/Interfaces";
 import styles from "./Form.module.css";
 import { addNewCountry } from "../../../API/apiService";
 
@@ -10,11 +10,11 @@ const Form: React.FC = () => {
     handleSubmit,
     reset,
     formState: { errors },
-  } = useForm<ICountrie>({
+  } = useForm<ICountry>({
     mode: "onChange",
   });
 
-  async function onSubmit(data: ICountrie): Promise<void> {
+  async function onSubmit(data: ICountry): Promise<void> {
     try {
       await addNewCountry(data);
       alert("Новая страна добавлена");
