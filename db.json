@@ -2,8 +2,8 @@
   "countries": [
     {
       "id": "1",
-      "name": "Belarus",
-      "capital": "Minsk",
+      "name": "Беларусь",
+      "capital": "Минск",
       "population": 2000000,
       "flag": "https://avatars.mds.yandex.net/i?id=139bbe57c9ab2bcdf57e6e530a6a51bbee774388-10122395-images-thumbs&n=13"
     },
@@ -146,13 +146,6 @@
       "capital": "Bangkok",
       "population": 11070000,
       "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg"
-    },
-    {
-      "id": "26",
-      "name": "Vietnam",
-      "capital": "Hanoi",
-      "population": 8053663,
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg"
     },
     {
       "id": "29",
