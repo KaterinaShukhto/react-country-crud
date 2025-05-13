@@ -134,13 +134,6 @@
       "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg"
     },
     {
-      "id": "23",
-      "name": "Pakistan",
-      "capital": "Islamabad",
-      "population": 1232000,
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg"
-    },
-    {
       "id": "24",
       "name": "Iran",
       "capital": "Tehran",
@@ -160,13 +153,6 @@
       "capital": "Hanoi",
       "population": 8053663,
       "flag": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg"
-    },
-    {
-      "id": "28",
-      "name": "Saudi Arabia",
-      "capital": "Riyadh",
-      "population": 7686654,
-      "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg"
     },
     {
       "id": "29",
