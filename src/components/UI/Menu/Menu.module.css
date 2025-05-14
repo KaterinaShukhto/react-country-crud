@@ -1,0 +1,17 @@
+.navigate{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.navigate li{
+    list-style: none;
+}
+
+.active-link{
+    color: red
+}

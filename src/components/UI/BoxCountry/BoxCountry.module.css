@@ -1,0 +1,29 @@
+.wrapper{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    width: 100%;
+    min-height: 500px;
+    align-items:center;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+h1,h2,h3{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.infoBox p{
+    position: relative;
+    padding: 20px;
+}
+
+.infoBox span{
+    position: absolute;
+    top: 50%;
+    transform: translate(-150%, -50%);
+    cursor: pointer;
+    color: red;
+    font-size: 12px;
+}
